@@ -25,7 +25,7 @@ a {
   text-decoration: none;  
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 300;
   line-height: 1.2;
   margin: 10px 0;
@@ -138,22 +138,24 @@ img {
   padding-top: 100px;
 }
 
-/* Utilities */
+.stats-heading {
+  max-width: 600px;
+  margin: auto;
+}
 
+.stats .grid h3 {
+  font-size: 35px;
+}
 
+.stats .grid p {
+  font-size: 20px;
+  /* font-weight: bold; */
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* Cli */
+.cli .grid {
+  grid-template-columns: repeat(3, 1fr);
+}
 
 
 
