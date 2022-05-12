@@ -55,7 +55,29 @@
 .bg-light,
 .btn-light {
   background-color: var(--light-color);
-  color: #fff;
+  color: #333;
+}
+
+/* Text sizes */
+.lead {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
 }
 
 .text-center {
